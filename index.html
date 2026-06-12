@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Muhammed Fasil T K - MCA Graduate and Python Developer skilled in Django framework, web application development, database management, and software solutions.">
+
+    <meta name="keywords"
+        content="Muhammed Fasil T K, MCA Graduate, Python Developer, Django Developer, Django Framework, Web Development, Software Developer, Python Programming, Portfolio, Kerala, India">
+
+    <meta name="author" content="Muhammed Fasil T K">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Muhammed Fasil T K | MCA Graduate & Python Developer">
+    <meta property="og:description"
+        content="Portfolio of Muhammed Fasil T K, MCA Graduate and Python Developer with expertise in Django framework, web development, and software engineering.">
+    <meta property="og:image" content="photo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Muhammed Fasil T K | MCA Graduate & Python Developer">
+    <meta property="twitter:description"
+        content="Portfolio of Muhammed Fasil T K, MCA Graduate and Python Developer with expertise in Django framework, web development, and software engineering.">
+    <meta property="twitter:image" content="photo.jpg">
+
+    <title>Muhammed Fasil T K | Python & Django Developer</title>
+
+    <!-- Google Fonts: Outfit for sleek headers, Space Grotesk for tech/monospaced elements -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Canvas for Particles -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Mouse-following Glow Effect -->
+    <div id="cursor-glow"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="nav-logo">
+                <span class="logo-symbol">&lt;</span>Fasil<span class="logo-accent">.py</span><span
+                    class="logo-symbol">&gt;</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="link-home">Home</a>
+                <a href="#about" class="nav-link" id="link-about">About</a>
+                <a href="#skills" class="nav-link" id="link-skills">Skills</a>
+                <a href="#internships" class="nav-link" id="link-internships">Internships</a>
+                <a href="#projects" class="nav-link" id="link-projects">Projects</a>
+                <a href="#education" class="nav-link" id="link-education">Education</a>
+                <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+            <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <div class="badge reveal">
+                        <span class="badge-dot"></span> Available for Opportunities
+                    </div>
+                    <h1 class="hero-title reveal">
+                        Hi, I'm <span class="gradient-text">Muhammed Fasil T K</span>
+                    </h1>
+                    <div class="hero-subtitle reveal">
+                        <span>I am a </span>
+                        <span id="typing-text" class="accent-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-desc reveal">
+                        I'm Muhammed Fasil T K, an MCA graduate and Python & Django Developer passionate about building
+                        scalable web applications and backend solutions. I have hands-on experience in Django, Django
+                        REST Framework, database management, authentication systems, and API development through
+                        real-world projects. I enjoy transforming ideas into functional applications and continuously
+                        enhancing my technical skills by learning modern development technologies and best practices.
+                    </p>
+                    <div class="hero-ctas reveal">
+                        <a href="#projects" class="btn btn-primary" id="cta-projects">
+                            <i data-lucide="layers" class="btn-icon"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="cta-contact">
+                            <i data-lucide="mail" class="btn-icon"></i> Contact Me
+                        </a>
+                        <a href="MUHAMMED FASIL T K.pdf" download="MUHAMMED_FASIL_T_K_Resume.pdf"
+                            class="btn btn-tertiary" id="cta-resume">
+                            <i data-lucide="download" class="btn-icon"></i> Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper reveal">
+                    <div class="profile-glow-ring">
+                        <div class="profile-image-container">
+                            <img src="photo.jpg" alt="Muhammed Fasil T K Profile" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+                <div class="mouse-icon">
+                    <span class="wheel"></span>
+                </div>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title"><span class="logo-symbol">&lt;</span> About Me <span
+                            class="logo-symbol">/&gt;</span></h2>
+                    <p class="section-subtitle">Get to know my professional journey and drive</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-info reveal">
+                        <h3 class="about-lead-title">Passionate about software development, problem-solving, and
+                            creating innovative applications that deliver real-world value
+                        </h3>
+                        <p class="about-text">
+                            I am a dedicated <strong>Python and Django Developer</strong> holding a <strong>Master of
+                                Computer Applications (MCA)</strong> degree from KMCT Institute of Technology and
+                            Management with a <strong>CGPA of 8.59/10</strong>. I am passionate about building modern
+                            web applications and creating software solutions that are efficient, reliable, and
+                            user-focused.
+                        </p>
+
+                        <p class="about-text">
+                            My journey in software development has strengthened my problem-solving abilities and
+                            technical skills through academic learning and hands-on project experience. I enjoy
+                            transforming ideas into practical applications, writing clean and maintainable code, and
+                            continuously exploring new technologies to enhance my development expertise.
+                        </p>
+                        <div class="about-pillars">
+                            <div class="pillar-card">
+                                <i data-lucide="graduation-cap" class="pillar-icon text-cyan"></i>
+                                <h4>MCA Graduate</h4>
+                                <p>Completed MCA with a CGPA of <strong>8.59/10</strong>, building a strong foundation
+                                    in computer science, software development, and advanced programming principles.</p>
+                            </div>
+                            <div class="pillar-card">
+                                <i data-lucide="terminal" class="pillar-icon text-purple"></i>
+                                <h4>Web Application Development</h4>
+                                <p>Skilled in building dynamic web applications using Python and Django with a focus on
+                                    performance and reliability.</p>
+                            </div>
+                            <div class="pillar-card">
+                                <i data-lucide="git-branch" class="pillar-icon text-green"></i>
+                                <h4>Continuous Learner</h4>
+                                <p>Always expanding skills, staying updated with modern web standards and DevOps tools.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-objective-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+                        <div class="objective-header">
+                            <i data-lucide="target" class="objective-icon"></i>
+                            <h3>Career Objective</h3>
+                        </div>
+                        <p class="objective-text">
+                            "To secure a challenging role as a <strong>Software Engineer, Python Developer, Django
+                                Developer, or Backend Developer</strong> in a forward-thinking organization. I aim to
+                            leverage my theoretical knowledge from MCA and practical development skills to build
+                            efficient backend architectures, solve complex programming challenges, and contribute to
+                            high-impact software products while continuously growing my technical expertise."
+                        </p>
+                        <div class="objective-footer">
+                            <span class="badge badge-cyan">Python</span>
+                            <span class="badge badge-purple">Django</span>
+                            <span class="badge badge-green">Software</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title"><span class="logo-symbol">&lt;</span> Technical Skills <span
+                            class="logo-symbol">/&gt;</span></h2>
+                    <p class="section-subtitle">Technologies and tools I use to build modern applications</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- Programming -->
+                    <div class="skill-category-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+                        <div class="skill-category-header">
+                            <i data-lucide="code-2" class="skill-cat-icon text-cyan"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage" data-target="75">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-cyan" data-width="75%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage" data-target="60">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-purple" data-width="60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="skill-category-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+                        <div class="skill-category-header">
+                            <i data-lucide="cpu" class="skill-cat-icon text-purple"></i>
+                            <h3>Frameworks</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-percentage" data-target="75">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-purple" data-width="75%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Django REST Framework</span>
+                                    <span class="skill-percentage" data-target="70">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-cyan" data-width="70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="skill-category-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+                        <div class="skill-category-header">
+                            <i data-lucide="database" class="skill-cat-icon text-green"></i>
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-percentage" data-target="70">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-green" data-width="70%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-category-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+                        <div class="skill-category-header">
+                            <i data-lucide="layout" class="skill-cat-icon text-cyan"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5 & CSS3</span>
+                                    <span class="skill-percentage" data-target="80">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-cyan" data-width="80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Bootstrap</span>
+                                    <span class="skill-percentage" data-target="80">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-green" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-category-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+                        <div class="skill-category-header">
+                            <i data-lucide="settings" class="skill-cat-icon text-green"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git & GitHub</span>
+                                    <span class="skill-percentage" data-target="80">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-green" data-width="80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Docker</span>
+                                    <span class="skill-percentage" data-target="80">0%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill progress-green" data-width="80%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Achievements Section -->
+        <section class="achievements-section section-padding">
+            <div class="container">
+                <div class="achievements-grid">
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="counter-glow"></div>
+                        <i data-lucide="briefcase" class="achievement-icon text-cyan"></i>
+                        <span class="counter-number" data-target="7">0</span><span class="counter-suffix">+</span>
+                        <p class="achievement-label">Projects Completed</p>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="counter-glow"></div>
+                        <i data-lucide="flame" class="achievement-icon text-purple"></i>
+                        <span class="counter-number" data-target="10">0</span><span class="counter-suffix">+</span>
+                        <p class="achievement-label">Technologies Explored</p>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="counter-glow"></div>
+                        <i data-lucide="award" class="achievement-icon text-cyan"></i>
+                        <span class="counter-text-val">MCA</span>
+                        <p class="achievement-label">Graduate Degree</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Internship -->
+        <section class="internship-section section-padding" id="internships">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title"><span class="logo-symbol">&lt;</span> Internship Experience <span
+                            class="logo-symbol">/&gt;</span></h2>
+                    <p class="section-subtitle">My hands-on experience as a Python Trainee at Softroniics</p>
+                </div>
+            </div>
+            <div class="timeline-item left reveal internship-timeline-item">
+                <div class="timeline-content glass-card tilt-card">
+                    <div class="card-glow"></div>
+
+                    <span class="timeline-date">July 2023 – January 2024</span>
+
+                    <h3>Python Trainee</h3>
+
+                    <span class="timeline-institution">
+                        Softroniics | Malappuram, Kerala
+                    </span>
+
+                    <p class="timeline-details">
+                        Successfully completed a 6-month internship as a Python Trainee,
+                        gaining hands-on experience in developing web applications using
+                        Python and Django. Worked on real-world projects involving backend
+                        development, database management, frontend integration, and software
+                        deployment practices.
+                    </p>
+
+                    <div class="internship-tech">
+                        <span class="internship-badge">Python</span>
+                        <span class="internship-badge">Django</span>
+                        <span class="internship-badge">HTML</span>
+                        <span class="internship-badge">CSS</span>
+                        <span class="internship-badge">JavaScript</span>
+                        <span class="internship-badge">SQLite</span>
+                    </div>
+
+                    <div class="internship-responsibilities">
+                        <h4>Responsibilities</h4>
+                        <ul>
+                            <li>Developed and maintained web applications using Python and Django.</li>
+                            <li>Built responsive user interfaces using HTML, CSS, and JavaScript.</li>
+                            <li>Integrated frontend components with backend functionality.</li>
+                            <li>Managed databases using SQLite for data storage and retrieval.</li>
+                            <li>Participated in project development, testing, debugging, and deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title"><span class="logo-symbol">&lt;</span> Featured Projects <span
+                            class="logo-symbol">/&gt;</span></h2>
+                    <p class="section-subtitle">A showcase of software solutions I have engineered
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card tilt-card reveal" id="project-feedneed">
+                        <div class="card-glow"></div>
+                        <div class="project-header">
+                            <span class="project-number">01</span>
+                            <div class="project-icon-box">
+                                <i data-lucide="heart-handshake" class="project-main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">FeedNeed</h3>
+                            <p class="project-desc">A food donation and distribution platform that helps reduce food
+                                wastage by connecting food providers with people in need.</p>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag"><a href="https://github.com/fasiltk/feedneed">GitHub</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card tilt-card reveal" id="project-dailyjob">
+                        <div class="card-glow"></div>
+                        <div class="project-header">
+                            <span class="project-number">02</span>
+                            <div class="project-icon-box">
+                                <i data-lucide="calendar" class="project-main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">DailyJob</h3>
+                            <p class="project-desc">A platform connecting customers and workers for daily job
+                                opportunities with integrated booking, profile management, and scheduling functionality.
+                            </p>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag"><a href="https://github.com/fasiltk/Daily-Job">GitHub</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card tilt-card reveal" id="project-fitmaker">
+                        <div class="card-glow"></div>
+
+                        <div class="project-header">
+                            <span class="project-number">03</span>
+                            <div class="project-icon-box">
+                                <i data-lucide="dumbbell" class="project-main-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">FitMaker</h3>
+                            <p class="project-desc">
+                                A fitness and nutrition platform that helps users track daily food intake,
+                                monitor calorie consumption, and receive personalized workout recommendations
+                                based on their health goals.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag">
+                                    <a href="https://github.com/fasiltk/Fitmaker" target="_blank" rel="noopener">
+                                        GitHub
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card glass-card tilt-card reveal" id="project-event-management">
+                        <div class="card-glow"></div>
+
+                        <div class="project-header">
+                            <span class="project-number">04</span>
+                            <div class="project-icon-box">
+                                <i data-lucide="calendar-days" class="project-main-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Event Planning & Management System</h3>
+                            <p class="project-desc">
+                                A Django REST Framework (DRF) based backend system that connects organizers,
+                                customers, and vendors. It enables event creation, seat booking, vendor
+                                service requests, and role-based management using custom session-based
+                                authentication.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag">
+                                    <a href="https://github.com/fasiltk/Event-planning-DRF" target="_blank"
+                                        rel="noopener">
+                                        GitHub
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card glass-card tilt-card reveal" id="project-memory-test">
+                        <div class="card-glow"></div>
+
+                        <div class="project-header">
+                            <span class="project-number">05</span>
+                            <div class="project-icon-box">
+                                <i data-lucide="brain" class="project-main-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Memory Test</h3>
+                            <p class="project-desc">
+                                An interactive memory training web application that displays 12 numbered
+                                images for a limited time and challenges users to recall the correct number
+                                when a random image is shown later, helping improve visual memory and focus.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag">
+                                    <a href="https://github.com/fasiltk/memory-test" target="_blank" rel="noopener">
+                                        GitHub
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card glass-card tilt-card reveal" id="project-forensic">
+                        <div class="card-glow"></div>
+
+                        <div class="project-header">
+                            <span class="project-number">06</span>
+                            <div class="project-icon-box">
+                                <i data-lucide="fingerprint" class="project-main-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Forensic</h3>
+                            <p class="project-desc">
+                                A responsive Angular-based web application that displays information about
+                                individuals linked to criminal investigations. The platform retrieves data
+                                from a REST API and presents details such as personal information, addresses,
+                                and occupations through an organized and user-friendly interface.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag">
+                                    <a href="https://github.com/fasiltk/Angular-Forensic" target="_blank"
+                                        rel="noopener">
+                                        GitHub
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+                    <div class="project-card glass-card tilt-card reveal" id="project-happy-pets">
+                        <div class="card-glow"></div>
+
+                        <div class="project-header">
+                            <span class="project-number">07</span>
+                            <div class="project-icon-box">
+                                <i data-lucide="paw-print" class="project-main-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="project-body">
+                            <h3 class="project-title">Happy Pets</h3>
+                            <p class="project-desc">
+                                A pet adoption platform that connects pet owners, shelters, and adopters.
+                                Users can post pets available for adoption, browse listings, and communicate
+                                directly through an integrated chat system, making the adoption process
+                                simple, secure, and user-friendly.
+                            </p>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="project-tags">
+
+                                <span class="tag">
+                                    <a href="https://github.com/fasiltk/Happy-pets" target="_blank" rel="noopener">
+                                        GitHub
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Timeline Section -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title"><span class="logo-symbol">&lt;</span> Education & Journey <span
+                            class="logo-symbol">/&gt;</span></h2>
+                    <p class="section-subtitle">My academic foundations and learning pathway</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <div class="timeline-item left reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card tilt-card">
+                            <div class="card-glow"></div>
+                            <span class="timeline-date">2024 - 2026</span>
+                            <h3>Master of Computer Applications (MCA)</h3>
+                            <span class="timeline-institution">KMCT Institute of Technology and Management</span>
+                            <span class="timeline-date">CGPA: 8.59/10</span>
+                            <p class="timeline-details">
+                                Focused on advanced computer science topics, including Software Engineering, Database
+                                Management Systems (DBMS), Advanced Web Technologies, Analysis & Design of Algorithms,
+                                and Object-Oriented Programming. Developed strong logical, architectural, and analytical
+                                skills.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item right reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card tilt-card">
+                            <div class="card-glow"></div>
+                            <span class="timeline-date">2021 - 2024</span>
+                            <h3>B.Sc. Computer Science</h3>
+                            <span class="timeline-institution">Majlis Arts and Science College</span>
+                            <span class="timeline-date">CGPA: 6.59/10</span>
+                            <p class="timeline-details">
+                                Studied core computer science subjects including Programming, Database Management
+                                Systems,
+                                Data Structures, Computer Networks, Operating Systems, Web Technologies, and Software
+                                Development.
+                                Built a strong foundation in problem-solving, programming concepts, and computer science
+                                fundamentals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item left reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card tilt-card">
+                            <div class="card-glow"></div>
+                            <span class="timeline-date">2019 - 2021</span>
+                            <h3>Higher Secondary Education (+2) - Computer Science</h3>
+                            <span class="timeline-institution">GJHSS Naduvattom</span>
+                            <span class="timeline-date">Percentage: 86.8%</span>
+                            <p class="timeline-details">
+                                Completed Higher Secondary Education with a specialization in Computer Science.
+                                Studied Computer Science, Mathematics, Physics, and Chemistry while developing
+                                analytical thinking, logical reasoning, and a strong foundation in technology and
+                                programming concepts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item right reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card tilt-card">
+                            <div class="card-glow"></div>
+                            <span class="timeline-date">2018 - 2019</span>
+                            <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                            <span class="timeline-institution">GHS Chundambatta</span>
+                            <span class="timeline-date">Percentage: 95%</span>
+                            <p class="timeline-details">
+                                Successfully completed Secondary School Education with excellent academic performance.
+                                Developed a strong foundation in Mathematics, Science, Languages, and analytical
+                                thinking,
+                                which later contributed to pursuing studies in Computer Science and Information
+                                Technology.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Workshops Section -->
+        <section id="workshops" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">
+                        <span class="logo-symbol">&lt;</span>
+                        Workshops
+                        <span class="logo-symbol">/&gt;</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Professional workshops and industry learning experiences
+                    </p>
+                </div>
+
+                <div class="workshops-grid">
+                    <div class="workshop-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+
+                        <span class="timeline-date">November 2024</span>
+                        <h3>Generative AI Workshop</h3>
+                        <span class="timeline-institution">NxtWave | Online</span>
+
+                        <p class="timeline-details">
+                            Explored the fundamentals of Artificial Intelligence, including various AI categories,
+                            their capabilities, and real-world applications. Gained insights into modern Generative AI
+                            technologies and their impact across industries.
+                        </p>
+                    </div>
+
+                    <div class="workshop-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+
+                        <span class="timeline-date">June 2025</span>
+                        <h3>Cybersecurity Analyst Job Simulation</h3>
+                        <span class="timeline-institution">Tata Group (Forage) | Online</span>
+
+                        <p class="timeline-details">
+                            Completed a practical cybersecurity job simulation focused on identifying security risks,
+                            analyzing incidents, and applying cybersecurity best practices. Gained exposure to
+                            real-world security operations and threat analysis workflows.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">
+                        <span class="logo-symbol">&lt;</span>
+                        Certifications & Courses
+                        <span class="logo-symbol">/&gt;</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Continuous learning and professional development
+                    </p>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="certificate-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+
+                        <h3>Machine Learning Introduction for Everyone</h3>
+                        <span class="timeline-institution">IBM</span>
+
+                        <p class="timeline-details">
+                            Learned the fundamentals of Machine Learning and Data Science, including supervised and
+                            unsupervised learning concepts, machine learning workflows, and real-world applications of
+                            predictive models.
+                        </p>
+                    </div>
+
+                    <div class="certificate-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+
+                        <h3>Python for Beginners</h3>
+                        <span class="timeline-institution">NIT</span>
+
+                        <p class="timeline-details">
+                            Gained a strong foundation in Python programming, including variables, data types,
+                            control structures, functions, object-oriented programming, and problem-solving techniques.
+                        </p>
+                    </div>
+
+                    <div class="certificate-card glass-card tilt-card reveal">
+                        <div class="card-glow"></div>
+
+                        <h3>Database Management System</h3>
+                        <span class="timeline-institution">NPTEL</span>
+
+                        <p class="timeline-details">
+                            Studied database design principles, SQL programming, normalization techniques,
+                            transaction management, relational database concepts, and data integrity mechanisms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Section -->
+        <section class="github-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title"><span class="logo-symbol">&lt;</span> GitHub Activity <span
+                            class="logo-symbol">/&gt;</span></h2>
+                    <p class="section-subtitle">Where code takes shape and versions are tracked</p>
+                </div>
+
+                <div class="github-card-wrapper reveal">
+                    <div class="github-showcase-card glass-card">
+                        <div class="card-glow"></div>
+                        <div class="github-header">
+                            <div class="github-user-info">
+                                <i data-lucide="github" class="github-logo"></i>
+                                <div>
+                                    <h3>fasiltk</h3>
+                                    <p class="text-soft-gray">Muhammed Fasil T K on GitHub</p>
+                                </div>
+                            </div>
+                            <a href="https://github.com/fasiltk" target="_blank" rel="noopener"
+                                class="btn btn-secondary btn-sm" id="github-btn-primary">
+                                <i data-lucide="external-link" class="btn-icon"></i> Follow Profile
+                            </a>
+                        </div>
+                        <div class="github-body">
+                            <p class="github-intro">
+                                You can check out my source codes, configurations, and contributions at my primary
+                                GitHub handle <strong>fasiltk</strong>. Also associated with work under
+                                <strong>muhdfasil</strong>.
+                            </p>
+                            <div class="github-stats-row">
+                                <div class="github-stat">
+                                    <span class="stat-number">10+</span>
+                                    <span class="stat-label">Repositories</span>
+                                </div>
+                                <div class="github-stat">
+                                    <span class="stat-number">7+</span>
+                                    <span class="stat-label">Production Apps</span>
+                                </div>
+                                <div class="github-stat">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Python Focus</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title"><span class="logo-symbol">&lt;</span> Connect with Me <span
+                            class="logo-symbol">/&gt;</span></h2>
+                    <p class="section-subtitle">Let's discuss development opportunities and collaborations</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <!-- Recruiter card with direct links -->
+                    <div class="contact-card glass-card reveal">
+                        <div class="card-glow"></div>
+                        <div class="contact-header-text">
+                            <h3>Let's Build Something Exceptional</h3>
+                            <p>I am seeking professional roles as a Software Engineer, Python Developer, Django
+                                Developer, or Backend Developer. Reach out via the channels below.</p>
+                        </div>
+
+                        <div class="contact-details-grid">
+                            <div class="contact-info-item">
+                                <div class="contact-icon-wrapper text-cyan">
+                                    <i data-lucide="user"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-label">Name</span>
+                                    <span class="contact-value">Muhammed Fasil T K</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-wrapper text-purple">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Pattambi, Palakkad</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-wrapper text-green">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:muhdfasiltk@gmail.com"
+                                        class="contact-value link-highlight">muhdfasiltk@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-wrapper text-cyan">
+                                    <i class="ri-linkedin-box-fill"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-label">LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/muhammedfasiltk/" target="_blank"
+                                        rel="noopener"
+                                        class="contact-value link-highlight">linkedin.com/in/muhammedfasiltk</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-wrapper text-purple">
+                                    <i class="ri-github-fill"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <span class="contact-label">GitHub Profiles</span>
+                                    <div class="contact-double-links">
+                                        <a href="https://github.com/fasiltk" target="_blank" rel="noopener"
+                                            class="contact-value link-highlight">github.com/fasiltk</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-actions">
+                            <a href="MUHAMMED FASIL T K.pdf" download="MUHAMMED_FASIL_T_K_Resume.pdf"
+                                class="btn btn-primary" id="contact-download-resume">
+                                <i data-lucide="file-text" class="btn-icon"></i> Download Resume PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="logo-symbol">&lt;</span>Fasil<span class="logo-accent">.py</span><span
+                    class="logo-symbol">&gt;</span>
+            </div>
+            <p class="footer-copyright">
+                &copy; 2026 Muhammed Fasil T K. All Rights Reserved.
+            </p>
+            <div class="footer-socials">
+                <a href="https://github.com/fasiltk" target="_blank" rel="noopener" aria-label="GitHub profile"><i
+                        data-lucide="github"></i></a>
+                <a href="https://linkedin.com/in/muhammed-fasil-tk" target="_blank" rel="noopener"
+                    aria-label="LinkedIn profile"><i data-lucide="linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript Logic -->
+    <script src="script.js"></script>
+</body>
+
+</html>
